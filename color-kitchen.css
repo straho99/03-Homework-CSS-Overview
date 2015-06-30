@@ -1,0 +1,202 @@
+body {
+    background-image: url(images/colorful_dots_on_black.jpg);
+    background-color: lightgrey;
+    width: 900px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+body>header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    display: table-cell;
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    background-color: green;
+    width: 900px;
+    height: 50px;
+    border-left: 300px solid red;
+    border-right: 300px solid blue;
+}
+
+aside nav {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+section {
+    width: 620px;
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+}
+
+article {
+    width: 620px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#webColors {
+    width: 98%;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 120%;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#webSafeColors {
+    width: 98%;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 120%;
+    color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#RGB {
+    width: 98%;
+    background-color: yellow;
+    border-radius: 5px;
+    font-size: 120%;
+    color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#RGBA {
+    width: 98%;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 120%;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#HSLHSV {
+    width: 98%;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 120%;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#lorem {
+    width: 98%;
+    background-color: purple;
+    border-radius: 5px;
+    font-size: 120%;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+footer a:visited {
+    color: grey;
+    font-style: italic;
+}
+
+footer a {
+    color: black;
+    font-style: italic;
+}
+
+ul {
+    padding: 0;
+}
+
+ul a {
+    color: black;
+}
+
+ul a:visited{
+    color: grey;
+}
+
+article div::first-letter {
+    font-size: 300%;
+    font-style: italic;
+}
+
+article div::first-line {
+    font-style: italic;
+}
+
+aside nav header {
+    font-size: 130%;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+aside nav ul a {
+    font-family: Tahoma, Verdana, sans-serif;
+    /*padding: 5px;*/
+}
+
+aside nav ul li {
+    list-style: none;
+    display: block;
+    margin-right: 0;
+}
+
+aside nav ul li a {
+    width: 85%;
+    display: block;
+    border-radius: 5px;
+    background: url(images/tick.svg) left center no-repeat;
+    padding: 5px 5px 5px 22px;
+    margin-left: 0;
+}
+
+aside nav ul li:hover {
+    /*background-color: red;*/
+}
+
+li a[href*="webColors"]:hover {
+    display: block;
+    background-color: red; !important;
+}
+
+li a[href*="webSafeColors"]:hover {
+    display: block;
+    background-color: orange; !important;
+}
+
+li a[href*="RGB"]:hover {
+    display: block;
+    background-color: yellow; !important;
+}
+
+li a[href*="RGBA"]:hover {
+    display: block;
+    background-color: green; !important;
+}
+
+li a[href*="HSLHSV"]:hover {
+    display: block;
+    background-color: blue; !important;
+}
+
+li a[href*="lorem"]:hover {
+    display: block;
+    background-color: purple; !important;
+}

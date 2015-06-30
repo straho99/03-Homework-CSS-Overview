@@ -1,0 +1,131 @@
+body {
+    background-color: #17be2a;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+tr {
+    height: 30px;
+}
+
+th {
+    background-color: #ffb424;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+thead tr:first-child th:first-child {
+    border-radius: 7px 0 0 0;
+}
+
+thead tr:first-child th:last-child {
+    border-radius: 0 7px 0 0;
+}
+
+tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 7px;
+}
+
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 7px 0;
+}
+
+.host {
+    text-align: right;
+    width: 115px;
+    padding: 3px;
+}
+
+.guest {
+    text-align: left;
+    width: 115px;
+    padding: 3px;
+}
+
+.score {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 3px;
+    width: 65px;
+}
+
+select{
+    width: 25px;
+}
+
+.team-brazil:after {
+    content: url(images/brazil.jpg);
+
+}
+
+.team-spain:after {
+    content: url(images/spain.jpg);
+}
+
+.team-italy:after {
+    content: url(images/italy.jpg);
+}
+
+.team-argentina:after {
+    content: url(images/argentinia.jpg);
+}
+
+.team-germany:after {
+    content: url(images/germany.jpg);
+}
+
+.team-mexico:before {
+    content: url(images/mexico.jpg);
+}
+
+.team-netherlands:before {
+    content: url(images/netherlands.jpg);
+}
+
+.team-england:before {
+    content: url(images/england.jpg);
+}
+
+.team-bosnia:before {
+    content: url(images/bosnia.jpg);
+}
+
+.team-portugal:before {
+    content: url(images/portugal.jpg);
+}
+
+span {
+    /*border: 1px solid red;*/
+    display: block;
+    vertical-align: middle;
+}
+
+td .bet-red {
+    content: url(images/bet-red.svg);
+    margin: 0 auto;
+}
+
+td .bet-green {
+    content: url(images/bet-green.svg);
+    margin: 0 auto;
+}
+
+.bet {
+    margin: 0 auto;
+    text-align: center;
+}
